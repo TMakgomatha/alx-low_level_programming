@@ -1,1 +1,1 @@
-My first C project
+Hello world
