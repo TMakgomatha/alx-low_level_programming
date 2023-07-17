@@ -12,11 +12,11 @@ int main(void)
 	{
 		for (j = i; j <= 9; j++)
 		{
-			putchar(i + '0');
+			putchar(i + 48);
 			if (i != 9 || j != 9)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
